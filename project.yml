@@ -3,7 +3,7 @@ packages:
     functions:
       - name: echo
         runtime: 'nodejs:18'
-        main: 'index.js'
+        #main: 'index.js'
         web: true # expose over HTTPS
         limits:
           timeout: 1000 # ms

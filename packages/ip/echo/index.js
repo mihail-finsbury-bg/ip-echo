@@ -2,7 +2,6 @@ export function main(event) {
   const method = event?.http?.method || 'GET';
   const headers = event?.http?.headers || {};
 
-  const origin = headers.origin || '';
   const allowOrigin = '*';
 
   // Preflight handler
