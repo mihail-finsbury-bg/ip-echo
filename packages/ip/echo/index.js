@@ -28,7 +28,7 @@ export function main(event) {
     headers: {
       'Content-Type': 'text/plain',
       'Cache-Control': 'no-store',
-      'Access-Control-Allow-Origin': allowOrigin,
+      // 'Access-Control-Allow-Origin': allowOrigin,
     },
     body: ip,
   };
