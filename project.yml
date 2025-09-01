@@ -1,0 +1,10 @@
+packages:
+  - name: ip
+    functions:
+      - name: echo
+        runtime: 'nodejs:default'
+        main: 'index.js'
+        web: true # expose over HTTPS
+        limits:
+          timeout: 1000 # ms
+          memory: 128 # MB
