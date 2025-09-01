@@ -2,7 +2,7 @@ packages:
   - name: ip
     functions:
       - name: echo
-        runtime: 'nodejs:default'
+        runtime: 'nodejs:18'
         main: 'index.js'
         web: true # expose over HTTPS
         limits:
